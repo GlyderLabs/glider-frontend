@@ -7,7 +7,7 @@ import Landing from './pages/Landing';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Explore from './pages/Explore';
-import Dashboard from './pages/dashboard';
+import Dashboard from './pages/Dashboard';
 import DashboardLayout from './components/layout/DashboardLayout';
 import Agents from './pages/Agents';
 import TeamOverview from './pages/TeamOverview';
