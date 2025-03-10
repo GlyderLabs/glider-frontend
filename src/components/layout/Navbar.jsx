@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignOutAlt, faSignInAlt, faUserPlus, faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
 import DarkModeToggle from '../DarkModeToggle';
 import { AuthContext } from '../../contexts/AuthContext';
-import cogniaLogo from '../../assets/cognia-logo.svg';
+import glyderLogo from '../../assets/glyder-logo.svg';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,8 +25,7 @@ function Navbar() {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="text-blue-600 dark:text-blue-400 text-xl font-bold flex items-center">
-                <img src={cogniaLogo} alt="Cognia" className="w-8 h-8 mr-2" />
-                cognia
+                <img src={glyderLogo} alt="Glyder" className="w-40 h-40" />
               </Link>
             </div>
             
