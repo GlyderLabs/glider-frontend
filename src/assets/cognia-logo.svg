@@ -1,0 +1,12 @@
+<svg width="60" height="40" viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Node -->
+  <circle cx="16" cy="20" r="8" fill="#2563EB" />
+  
+  <!-- Secondary Nodes -->
+  <circle cx="28" cy="14" r="4" fill="#3B82F6" />
+  <circle cx="28" cy="26" r="4" fill="#3B82F6" />
+  <circle cx="38" cy="20" r="6" fill="#60A5FA" />
+  
+  <!-- Connection Lines -->
+  <path d="M16 20L28 14M16 20L28 26M28 14L38 20M28 26L38 20" stroke="#93C5FD" stroke-width="1.5" />
+</svg>
