@@ -7,7 +7,7 @@ config()
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: import.meta.env.VITE_PORT || 50390,
+    port: 50390,
     host: '0.0.0.0',
     headers: {
       'Access-Control-Allow-Origin': '*',
